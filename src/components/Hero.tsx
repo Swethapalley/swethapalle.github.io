@@ -16,11 +16,8 @@ const Hero = () => {
   };
 
   const downloadResume = () => {
-    // Create a mock PDF download
-    const link = document.createElement('a');
-    link.href = '/resume.pdf'; // You can replace this with actual resume path
-    link.download = 'Resume.pdf';
-    link.click();
+    // Open Google Drive resume link in new tab
+    window.open('https://drive.google.com/file/d/1PqdiMFB1-dWldMrpsgJm2E2jHGbrhwEs/view?usp=drive_link', '_blank');
   };
 
   return (
