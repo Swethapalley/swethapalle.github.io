@@ -45,7 +45,7 @@ const Hero = () => {
                 <p className="text-primary font-medium text-lg">Hello, I'm</p>
                 <h1 className="text-4xl md:text-6xl font-bold text-foreground leading-tight">
                   <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-                    Alex Johnson
+                    Swetha Palley
                   </span>
                 </h1>
                 <h2 className="text-2xl md:text-3xl font-semibold text-muted-foreground">
@@ -83,7 +83,7 @@ const Hero = () => {
                 <div className="w-80 h-80 rounded-full overflow-hidden border-4 border-primary/20 shadow-elegant">
                   <img
                     src={profileImage}
-                    alt="Alex Johnson"
+                    alt="Swetha Palley"
                     className="w-full h-full object-cover"
                   />
                 </div>
