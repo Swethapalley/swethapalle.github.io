@@ -27,7 +27,6 @@ const About = () => {
     { name: 'CSS3', level: 90 },
     { name: 'JavaScript', level: 85 },
     { name: 'React', level: 88 },
-    { name: 'TypeScript', level: 80 },
     { name: 'Tailwind CSS', level: 85 },
   ];
 
@@ -38,9 +37,9 @@ const About = () => {
       description: 'Writing maintainable, efficient, and scalable code following best practices.'
     },
     {
-      icon: <Palette className="w-8 h-8" />,
-      title: 'UI/UX Design',
-      description: 'Creating beautiful interfaces with focus on user experience and accessibility.'
+      icon: <Zap className="w-8 h-8" />,
+      title: 'Problem Solving',
+      description: 'Analytical thinking and creative solutions to complex technical challenges.'
     },
     {
       icon: <Smartphone className="w-8 h-8" />,
@@ -62,8 +61,8 @@ const About = () => {
             About Me
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Passionate frontend developer with 3+ years of experience creating 
-            modern web applications using cutting-edge technologies.
+            Computer Science Engineering student passionate about frontend development 
+            and creating modern web applications.
           </p>
         </div>
 
@@ -72,18 +71,18 @@ const About = () => {
           <div className={`space-y-6 ${isVisible ? 'slide-in-left visible' : 'slide-in-left'}`}>
             <div className="space-y-4">
               <p className="text-muted-foreground leading-relaxed">
-                I'm a dedicated Frontend Web Developer who loves crafting exceptional digital experiences. 
-                My journey in web development started with curiosity about how websites work, and it has 
-                evolved into a passion for creating intuitive, performant applications.
+                I'm a passionate B.Tech student in Electronics and Communication Engineering with a 
+                strong interest in frontend web development. My journey started with curiosity about 
+                how websites work and has evolved into a dedication to creating beautiful, functional web applications.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                I specialize in React ecosystem and modern JavaScript, with a keen eye for design 
-                and user experience. I believe in writing clean, maintainable code and staying 
-                up-to-date with the latest industry trends and best practices.
+                Currently learning and building projects with React, JavaScript, and modern CSS frameworks. 
+                I enjoy combining my technical background with creative problem-solving to bring ideas to life 
+                through code.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                When I'm not coding, you can find me exploring new technologies, contributing to 
-                open-source projects, or sharing knowledge with the developer community.
+                As a fresher graduating in 2026, I'm eager to contribute to meaningful projects and continue 
+                growing as a developer while staying current with industry best practices.
               </p>
             </div>
 

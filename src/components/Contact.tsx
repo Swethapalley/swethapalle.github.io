@@ -81,19 +81,19 @@ const Contact = () => {
     {
       icon: <Mail className="w-6 h-6" />,
       title: 'Email',
-      value: 'alex.johnson@email.com',
-      link: 'mailto:alex.johnson@email.com'
+      value: 'swethapalley09@gmail.com',
+      link: 'mailto:swethapalley09@gmail.com'
     },
     {
       icon: <Phone className="w-6 h-6" />,
       title: 'Phone',
-      value: '+1 (555) 123-4567',
-      link: 'tel:+15551234567'
+      value: '+91 8309637202',
+      link: 'tel:+918309637202'
     },
     {
       icon: <MapPin className="w-6 h-6" />,
       title: 'Location',
-      value: 'San Francisco, CA',
+      value: 'Hyderabad, India',
       link: '#'
     }
   ];
@@ -169,7 +169,7 @@ const Contact = () => {
                   </svg>
                 </a>
                 <a
-                  href="mailto:alex.johnson@email.com"
+                  href="mailto:swethapalley09@gmail.com"
                   className="p-3 bg-foreground/5 hover:bg-primary/10 text-foreground hover:text-primary rounded-lg transition-all duration-300"
                 >
                   <Mail className="w-6 h-6" />

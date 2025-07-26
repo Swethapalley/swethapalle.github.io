@@ -23,46 +23,25 @@ const Resume = () => {
   }, []);
 
   const downloadResume = () => {
-    // Create a mock PDF download
-    const link = document.createElement('a');
-    link.href = '/resume.pdf';
-    link.download = 'Alex_Johnson_Resume.pdf';
-    link.click();
+    // Open Google Drive resume link in new tab
+    window.open('https://drive.google.com/file/d/1PqdiMFB1-dWldMrpsgJm2E2jHGbrhwEs/view?usp=drive_link', '_blank');
   };
 
   const experience = [
     {
-      title: 'Senior Frontend Developer',
-      company: 'TechCorp Solutions',
-      period: '2022 - Present',
-      description: 'Lead frontend development for enterprise web applications using React, TypeScript, and modern tools.',
-    },
-    {
-      title: 'Frontend Developer',
-      company: 'WebStart Agency',
-      period: '2021 - 2022',
-      description: 'Developed responsive websites and web applications for diverse clients using React and Vue.js.',
-    },
-    {
-      title: 'Junior Developer',
-      company: 'Digital Innovations',
-      period: '2020 - 2021',
-      description: 'Collaborated on various web projects, focusing on HTML, CSS, JavaScript, and basic React development.',
+      title: 'Fresher - Frontend Developer',
+      company: 'Currently Seeking Opportunities',
+      period: 'Graduating 2026',
+      description: 'Passionate about frontend development, currently building personal projects and learning modern web technologies including React, JavaScript, and responsive design.',
     },
   ];
 
   const education = [
     {
-      degree: 'Bachelor of Computer Science',
-      institution: 'State University',
-      period: '2016 - 2020',
-      description: 'Specialized in web development and software engineering with honors.',
-    },
-    {
-      degree: 'Frontend Development Bootcamp',
-      institution: 'Code Academy',
-      period: '2020',
-      description: 'Intensive program covering modern frontend technologies and best practices.',
+      degree: 'B.Tech in Electronics and Communication Engineering',
+      institution: 'CMR Institute of Technology, Hyderabad',
+      period: '2022 - 2026',
+      description: 'Currently pursuing Bachelor of Technology with focus on electronics, communication systems, and developing skills in web development.',
     },
   ];
 
@@ -75,7 +54,7 @@ const Resume = () => {
             Resume
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-8">
-            My professional journey and educational background in frontend development.
+            My educational background and passion for frontend development as a fresh graduate.
           </p>
           <button 
             onClick={downloadResume}
@@ -158,7 +137,7 @@ const Resume = () => {
               <div>
                 <h4 className="font-semibold text-foreground mb-3">Frontend Technologies</h4>
                 <ul className="space-y-1 text-sm text-muted-foreground">
-                  <li>• React.js & TypeScript</li>
+                  <li>• React.js</li>
                   <li>• HTML5 & CSS3</li>
                   <li>• JavaScript (ES6+)</li>
                   <li>• Responsive Design</li>
