@@ -27,7 +27,6 @@ const About = () => {
     { name: 'CSS3', level: 90 },
     { name: 'JavaScript', level: 85 },
     { name: 'React', level: 88 },
-    { name: 'Tailwind CSS', level: 85 },
   ];
 
   const features = [

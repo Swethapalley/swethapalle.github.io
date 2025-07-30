@@ -28,7 +28,7 @@ const Footer = () => {
           <div className="grid md:grid-cols-3 gap-8 items-center">
             {/* Brand */}
             <div>
-              <h3 className="text-xl font-bold text-foreground mb-2">Alex Johnson</h3>
+              <h3 className="text-xl font-bold text-foreground mb-2">Swetha Palley</h3>
               <p className="text-muted-foreground">
                 Frontend Web Developer crafting beautiful digital experiences.
               </p>
@@ -78,7 +78,7 @@ const Footer = () => {
         <div className="border-t border-border py-6">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-muted-foreground text-sm">
-              © {currentYear} Alex Johnson. All rights reserved.
+              © {currentYear} Swetha Palley. All rights reserved.
             </p>
             <p className="text-muted-foreground text-sm flex items-center gap-1">
               Made with <Heart className="w-4 h-4 text-red-500" fill="currentColor" /> using React & TypeScript
