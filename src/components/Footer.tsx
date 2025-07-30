@@ -11,7 +11,7 @@ const Footer = () => {
     },
     {
       name: 'LinkedIn',
-      href: 'https://linkedin.com/in/alexjohnson',
+      href: 'https://www.linkedin.com/in/palley-swetha-b758561b5',
       icon: <Linkedin className="w-5 h-5" />
     },
     {

@@ -159,7 +159,7 @@ const Contact = () => {
                   </svg>
                 </a>
                 <a
-                  href="https://linkedin.com/in/alexjohnson"
+                  href="https://www.linkedin.com/in/palley-swetha-b758561b5"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-3 bg-foreground/5 hover:bg-primary/10 text-foreground hover:text-primary rounded-lg transition-all duration-300"
