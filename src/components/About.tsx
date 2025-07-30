@@ -60,7 +60,7 @@ const About = () => {
             About Me
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Computer Science Engineering student passionate about frontend development 
+            B.Tech student passionate about frontend development 
             and creating modern web applications.
           </p>
         </div>
