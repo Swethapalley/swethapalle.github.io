@@ -76,12 +76,9 @@ const Footer = () => {
 
         {/* Bottom Bar */}
         <div className="border-t border-border py-6">
-          <div className="flex flex-col md:flex-row justify-between items-center gap-4">
+          <div className="flex flex-col md:flex-row justify-center items-center gap-4">
             <p className="text-muted-foreground text-sm">
               © {currentYear} Swetha Palley. All rights reserved.
-            </p>
-            <p className="text-muted-foreground text-sm flex items-center gap-1">
-              Made with <Heart className="w-4 h-4 text-red-500" fill="currentColor" /> using React & TypeScript
             </p>
           </div>
         </div>
